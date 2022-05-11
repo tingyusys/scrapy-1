@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="40fp"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0vp"
+        ohos:alignment="left"
+        ohos:weight="2">
+        <Image
+            ohos:id="$+id:song_image"
+            ohos:height="match_parent"
+            ohos:width="60vp"
+            ohos:layout_alignment="left"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:img"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0vp"
+        ohos:weight="3"
+        ohos:alignment="left">
+        <Text
+            ohos:id="$+id:song_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_alignment="horizontal_center"
+            ohos:text="歌曲名"/>
+        <Text
+            ohos:id="$+id:song_singer"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_alignment="horizontal_center"
+            ohos:text="歌手名"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0vp"
+        ohos:weight="1"
+        ohos:alignment="center">
+        <Image
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="horizontal_center"
+            ohos:image_src="$media:no_like"
+            />
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0vp"
+        ohos:weight="1"
+        ohos:alignment="center">
+        <Image
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="horizontal_center"
+            ohos:image_src="$media:add"
+            />
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0vp"
+        ohos:weight="1"
+        ohos:alignment="center">
+        <Image
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="horizontal_center"
+            ohos:image_src="$media:play"
+            />
+    </DirectionalLayout>
+
+
+
+
+</DirectionalLayout>
